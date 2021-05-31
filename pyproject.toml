@@ -1,8 +1,8 @@
 [tool.poetry]
 authors = ["long2ice <long2ice@gmail.com>"]
 description = "Sync data from other DB to ClickHouse, current support postgres and mysql, and support full and increment ETL."
-documentation = "https://github.com/long2ice/synch"
-homepage = "https://github.com/long2ice/synch"
+documentation = "https://github.com/felix88960/synch"
+homepage = "https://github.com/felix88960/synch"
 include = ["CHANGELOG.md", "LICENSE", "README.md", "pyproject.toml"]
 keywords = ["MySQL", "ClickHouse", "Sync", "replication"]
 license = "Apache-2.0"
@@ -11,7 +11,7 @@ packages = [
     { include = "synch" },
 ]
 readme = "README.md"
-repository = "https://github.com/long2ice/synch.git"
+repository = "https://github.com/felix88960/synch.git"
 version = "0.7.1"
 
 [tool.poetry.dependencies]
